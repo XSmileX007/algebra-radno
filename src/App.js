@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import randomstring from 'randomstring';
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
         >
           Učenje React-a
         </a>
+        <p>Ovdje zelim random string: {randomstring.generate()}</p>
       </header>
     </div>
   );
